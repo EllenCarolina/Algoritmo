@@ -1,0 +1,6 @@
+valor = float(input('Quanto você deseja de empréstimo do banco? '))
+juros = float(valor + (valor * 0.2))
+print('O valor a ser parcelado é R$', juros)
+parcelas = int(input('Em quantas vezes você deseja parcelar esse valor: '))
+valor_final = float(juros/parcelas)
+print('Então será R$'+ str(juros) +' parcelado em '+ str(parcelas) +' vezes, com parcelas de R$'+ str(valor_final) +'.')
