@@ -1,4 +1,4 @@
-uses 'Conte1a10';
+program 'Conte1a10';
 Var
     count, n: Integer;
 begin
